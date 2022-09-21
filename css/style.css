@@ -42,7 +42,6 @@ a:hover{
   width: 100%;
   top: 0;
   z-index: 10000;
-
 }
 .brand-title{
   margin:.5rem;
@@ -133,7 +132,7 @@ height: 21px;
     justify-content: center;
 }
 .cs_title{
-    margin-top: 30px;
+    margin-top: 7%;
     margin-bottom: 30px;
     align-items: center;
     text-align: center;
