@@ -119,6 +119,10 @@ height: 21px;
 .navLinks.active{
   display: flex;
 }
+
+.cs_title{
+margin-top: 30%!important;
+}
 }
 /*CASE STUDY CARDS*/
 
