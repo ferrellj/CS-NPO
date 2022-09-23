@@ -350,6 +350,16 @@ const navbarLinks = document.getElementsByClassName('navLinks')[0]
 togglebutton.addEventListener('click',()=> {
   navbarLinks.classList.toggle('active')
 })
+
+let backTotop = document.querySelector("#backTotop");
+let titleImage = document.querySelector(".titleImage");
+
+backTotop.addEventListener("click", navigateTitle,false);
+function navigateTitle(e){
+  titleImage.scrollIntoView({
+    behavior:"smooth"
+  });
+}
                 </script>
       </body>
     </html>
