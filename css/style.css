@@ -92,23 +92,26 @@ height: 21px;
   border-radius: 10px;
 }
 
-@media (max-width: 1280px) {
+@media (max-width: 1600px) {
   h1{
-    font-size: 20pt!important;
-    font-weight: 800;
+    font-size: 18pt!important;
+    font-weight: 700;
   }
-  a{font-size: 12pt;}
+  .cs_title{
+    max-width: 325px;
+    text-align: center;
+  }
+
+
+a{font-size: 10pt;}
     }
-    @media (min-width: 1050px) {
-      h1{
-        font-size: 20pt!important;
-        font-weight: 800;
-      }
-      a{font-size: 12pt;}
-        }
 
-@media (max-width: 1050px) {
 
+@media (max-width: 950px) {
+.navbar img{
+ max-width: 50%;
+margin-left: 30%!important;
+}
 
   h1{
     font-size: 18pt!important;
@@ -150,7 +153,7 @@ height: 21px;
 }
 
 .navLinks li a {
-  padding: .5rem 1rem;
+  padding: .1rem!important;
 }
  
 .skills_container img{
@@ -161,7 +164,7 @@ height: 21px;
 }
 
 .titleImage{
-  margin-top: 20%!important;
+  margin-top: 25%!important;
   }
 .cs_title{
   text-align: center;
@@ -170,9 +173,26 @@ height: 21px;
 }
 
 @media (max-width: 800px) {
+  .cs_title{
+    display: block;
+  }
   .titleImage{
-    margin-top: 10%;
+    margin-top: 30%;
+  }
+    h1{
+      font-size: 14pt!important;
+      font-weight: 700;
     }
+    h2{
+      font-size: 14pt!important;
+      font-weight: 500;
+    }
+    .navLinks li a{
+      font-size: 12pt;
+      font-weight: 400;
+      padding: .1rem!important;
+    }
+    
 }
 /*CASE STUDY CARDS*/
 
