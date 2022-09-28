@@ -99,7 +99,7 @@ height: 21px;
   }
   a{font-size: 12pt;}
     }
-    @media (min-width: 1000px) {
+    @media (min-width: 1050px) {
       h1{
         font-size: 20pt!important;
         font-weight: 800;
@@ -107,7 +107,7 @@ height: 21px;
       a{font-size: 12pt;}
         }
 
-@media (max-width: 1000px) {
+@media (max-width: 1050px) {
 
 
   h1{
