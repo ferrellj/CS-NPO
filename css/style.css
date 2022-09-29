@@ -51,10 +51,11 @@ a:active {
   justify-content: space-between;
   background-color: #ffffff;
   color: black;
-  position: fixed;
+  position: fixed!important;
   width: 100%;
   top: 0;
-  margin-bottom: 2%;
+  margin-bottom: 1%;
+  z-index: 100000;
 }
 .brand-title{
   margin:.5rem;
@@ -67,6 +68,15 @@ a:active {
 }
 .navLinks li{
   list-style: none;
+}
+.navLinks img{
+  margin-right: 15px;
+  margin-top: 5px;
+  padding: 5%;
+}
+.navLinks img:hover{
+  background-color: transparent!important;
+  transform: scale(1.2);
 }
 .navLinks li a:link{
   text-decoration: none;
@@ -82,12 +92,10 @@ a:active {
   font-weight: 800;
   background-color:#D4D4D4;
   transform: scale(.7);
-  text-decoration: none;
 }
 .navLinks li a:active{
   font-weight: 800;
   background-color:#D4D4D4;
-  text-decoration: none;
 }
 /*toggle*/
 .toggle-button{
